@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+h1{
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+form{
+    color: burlywood;
+    position: absolute;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid burlywood;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+button{
+    color: burlywood;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid burlywood;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.main{
+    text-align: justify;
+}
+.Sketch{
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
